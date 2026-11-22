@@ -18,6 +18,7 @@ jobs:
       - uses: actions/setup-go@fac708d6674e30b6ba41289acaab6d4b75aa0753
         with:
           go-version: 1.20.x
+          cache: false
 
       - run: make deps-build
 
